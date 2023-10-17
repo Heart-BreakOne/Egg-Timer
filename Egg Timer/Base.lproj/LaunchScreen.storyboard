@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="egg-background" translatesAutoresizingMaskIntoConstraints="NO" id="Eju-Mh-9q6">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egg Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5L-ot-37H">
+                                <rect key="frame" x="131.66666666666666" y="486.66666666666669" width="129.99999999999997" height="39.000000000000057"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HeartBreakOne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBS-el-eRt">
+                                <rect key="frame" x="95.666666666666686" y="545.66666666666663" width="202" height="39"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Eju-Mh-9q6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="2Bv-4o-JDI"/>
+                            <constraint firstItem="d5L-ot-37H" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="80" id="Dmm-VB-3ms"/>
+                            <constraint firstItem="Eju-Mh-9q6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Q38-Fo-dJQ"/>
+                            <constraint firstItem="d5L-ot-37H" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RsO-yu-ORn"/>
+                            <constraint firstAttribute="bottom" secondItem="Eju-Mh-9q6" secondAttribute="bottom" id="XXk-FY-ftt"/>
+                            <constraint firstAttribute="trailing" secondItem="Eju-Mh-9q6" secondAttribute="trailing" id="h3b-jt-2FB"/>
+                            <constraint firstItem="yBS-el-eRt" firstAttribute="top" secondItem="d5L-ot-37H" secondAttribute="bottom" constant="20" id="kz1-my-DeW"/>
+                            <constraint firstItem="yBS-el-eRt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="le9-5O-0Nj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="egg-background" width="341.33334350585938" height="341.33334350585938"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
